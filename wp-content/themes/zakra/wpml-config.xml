@@ -1,0 +1,10 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_zakra">
+			<key name="zakra_header_top_left_content_html" />
+			<key name="zakra_header_top_right_content_html" />
+            <key name="zakra_footer_bar_section_one_html" />
+            <key name="zakra_footer_bar_section_two_html" />
+		</key>
+	</admin-texts>
+</wpml-config>

@@ -1,0 +1,53 @@
+.zakra-message {
+    overflow: hidden;
+    position: relative;
+    border: 10px solid #97d2e7 !important;
+}
+.zakra-message-wrapper {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.zakra-message-wrapper .submit {
+    text-align: center;
+    padding-top: 25px;
+}
+.submit a.btn-get-started:before{
+    margin: 0 4px 3px 0;
+    vertical-align: middle;
+}
+.zakra-message a.button-primary,
+.zakra-message a.button-secondary {
+    text-decoration: none !important;
+}
+.zakra-message a.zakra-message-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 15px 10px 21px;
+    font-size: 13px;
+    line-height: 1.23076923;
+    text-decoration: none;
+}
+.zakra-message a.zakra-message-close:before {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+.zakra-message-wrapper .plugin-install-notice {
+    display: block;
+    font-size: 14px;
+    margin: 15px 0 0;
+}
+
+.zakra-message-wrapper > p {
+    font-size: 16px;
+}
+
+.zakra-message-wrapper > p span {
+    color: #72777c;
+}

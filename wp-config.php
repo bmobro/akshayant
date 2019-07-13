@@ -88,3 +88,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once( ABSPATH . 'wp-settings.php' );
+
+/**Execution Time Extended**/
+set_time_limit(300);
